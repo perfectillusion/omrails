@@ -1,4 +1,8 @@
 Omrails::Application.routes.draw do
+root 'pages#home'  
+
+get 'about' => 'pages#about'
+get 'anole' => 'pages#anole'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
